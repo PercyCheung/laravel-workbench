@@ -1,0 +1,27 @@
+{
+    "name": "percycheung/laravel-workbench",
+    "description": "Workbench for Laravel 5.",
+    "require": {
+        "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Percy Cheung",
+            "email": "percy.cs.cheung@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WorkBench\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WorkBench\\ServiceProvider"
+            ]
+        }
+    }
+}
